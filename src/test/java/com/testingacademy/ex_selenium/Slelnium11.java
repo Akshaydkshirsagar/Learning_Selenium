@@ -1,20 +1,16 @@
 package com.testingacademy.ex_selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.openqa.selenium.edge.EdgeDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Selenium08 {
-
-
+public class Slelnium11 {
 
     public static void main(String[] args) throws MalformedURLException {
-
 
 
         EdgeDriver driver = new EdgeDriver();
@@ -26,6 +22,8 @@ public class Selenium08 {
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
+
         driver.quit();
+
     }
 }
